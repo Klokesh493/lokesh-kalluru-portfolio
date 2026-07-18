@@ -147,7 +147,8 @@ h3 {
 }
 
 .hero-actions,
-.contact-links {
+.contact-links,
+.repo-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -216,18 +217,22 @@ h3 {
 }
 
 .summary-grid,
-.stack-grid {
+.stack-grid,
+.repo-grid,
+.stats-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
-.stack-grid {
+.stack-grid,
+.repo-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .summary-grid article,
 .stack-grid article,
+.repo-grid article,
 .project,
 .proof-list p {
   border: 1px solid var(--line);
@@ -249,12 +254,14 @@ h3 {
 .summary-grid p,
 .stack-grid p,
 .project p,
+.profile-link-section p,
 .proof-list p {
   color: var(--muted);
 }
 
 .stack-section,
-.projects {
+.projects,
+.stats-section {
   background: #edf2f8;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -310,6 +317,58 @@ h3 {
   white-space: nowrap;
 }
 
+.repo-section {
+  background: var(--white);
+}
+
+.repo-grid article {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.repo-grid a {
+  color: var(--blue);
+  font-weight: 750;
+  text-decoration-color: rgba(29, 78, 216, 0.3);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  max-width: 980px;
+}
+
+.stats-grid img {
+  width: 100%;
+  min-height: 150px;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  padding: 12px;
+}
+
+.stats-link {
+  display: inline-flex;
+  margin-top: 22px;
+  color: var(--blue);
+  font-weight: 850;
+  text-underline-offset: 4px;
+}
+
+.profile-link-section {
+  background: var(--white);
+  border-top: 1px solid var(--line);
+}
+
+.profile-link-section p {
+  max-width: 820px;
+  font-size: 1.08rem;
+}
+
 .proof-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -353,6 +412,8 @@ h3 {
   .signal-strip,
   .summary-grid,
   .stack-grid,
+  .repo-grid,
+  .stats-grid,
   .project,
   .proof-list {
     grid-template-columns: 1fr;
