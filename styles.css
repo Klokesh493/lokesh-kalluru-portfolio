@@ -312,10 +312,16 @@ h3 {
   gap: 12px;
   padding: 0 28px;
   text-align: center;
+  transition: background 160ms ease, transform 160ms ease;
 }
 
 .stat-cell + .stat-cell {
   border-left: 2px solid rgba(255, 255, 255, 0.78);
+}
+
+.stat-cell:hover {
+  background: rgba(88, 166, 255, 0.08);
+  transform: translateY(-2px);
 }
 
 .stat-cell strong,
@@ -370,7 +376,7 @@ h3 {
   margin-top: 24px;
 }
 
-.stat-chips span {
+.stat-chips a {
   padding: 8px 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -378,6 +384,13 @@ h3 {
   color: var(--charcoal);
   font-size: 13px;
   font-weight: 800;
+  transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.stat-chips a:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  transform: translateY(-1px);
 }
 
 .resume-list {
