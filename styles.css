@@ -172,6 +172,12 @@ h3 {
   color: var(--white);
 }
 
+.button.accent {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--white);
+}
+
 .button.secondary {
   background: rgba(255, 255, 255, 0.74);
 }
