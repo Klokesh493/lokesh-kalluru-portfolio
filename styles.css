@@ -273,6 +273,113 @@ h3 {
   font-weight: 800;
 }
 
+.stats-band {
+  border-top: 6px solid #d1d9e3;
+}
+
+.stats-links {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  margin: 4px 0 28px;
+  font-size: 18px;
+}
+
+.stats-links a {
+  color: #0969da;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.github-stat-card {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 0;
+  padding: 42px 0;
+  border-radius: 8px;
+  background: #0d1118;
+  color: var(--white);
+}
+
+.stat-cell {
+  min-height: 186px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 12px;
+  padding: 0 28px;
+  text-align: center;
+}
+
+.stat-cell + .stat-cell {
+  border-left: 2px solid rgba(255, 255, 255, 0.78);
+}
+
+.stat-cell strong,
+.streak-ring strong {
+  color: #58a6ff;
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1;
+}
+
+.stat-cell span {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.stat-cell small {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.streak-ring {
+  width: 126px;
+  height: 126px;
+  display: grid;
+  place-items: center;
+  border: 10px solid #1f6feb;
+  border-radius: 50%;
+  position: relative;
+}
+
+.streak-ring::before {
+  content: "";
+  position: absolute;
+  top: -21px;
+  width: 26px;
+  height: 34px;
+  border-radius: 50% 50% 55% 55%;
+  background: #58a6ff;
+  clip-path: polygon(50% 0, 72% 31%, 100% 50%, 74% 100%, 50% 82%, 26% 100%, 0 50%, 28% 31%);
+}
+
+.streak-ring strong {
+  color: var(--white);
+}
+
+.stat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.stat-chips span {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--charcoal);
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .resume-list {
   display: grid;
   gap: 12px;
@@ -327,8 +434,24 @@ h3 {
   .split,
   .project-grid,
   .content-grid,
+  .github-stat-card,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .github-stat-card {
+    width: min(520px, 100%);
+    padding: 12px 0;
+  }
+
+  .stat-cell {
+    min-height: auto;
+    padding: 30px 24px;
+  }
+
+  .stat-cell + .stat-cell {
+    border-top: 1px solid rgba(255, 255, 255, 0.32);
+    border-left: 0;
   }
 
   .stack-grid {
