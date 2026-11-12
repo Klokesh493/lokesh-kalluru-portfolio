@@ -4,10 +4,14 @@ Give visitors an accessible route from the homepage to selected work and public 
 
 ```mermaid
 flowchart LR
-    N0["index.html and image assets"]
-    N1["GitHub Pages build"]
-    N2["Browser renders project links"]
-    N0 --> N1 --> N2
+    A["Browser opens GitHub Pages"]
+    B["Static HTML, styles, and images load"]
+    C["Visitor chooses navigation"]
+    D["Selected Work cards"]
+    E["GitHub Overview and source repositories"]
+    A --> B --> C
+    C --> D
+    C --> E
 ```
 
 ## Operational boundaries
