@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Give visitors an accessible route from the homepage to selected work and public source repositories.
+Recruiters and engineers need a direct route from the landing page to selected projects, source code, and verification evidence.
 
 ## Reproduce the workflow
 

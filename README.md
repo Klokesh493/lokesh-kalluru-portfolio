@@ -21,6 +21,10 @@ Then visit `http://127.0.0.1:4173`.
 
 Run `make verify` with Make and Python 3 installed. The check validates local links, fragments, and asset paths in the portfolio HTML.
 
+## Business problem
+
+Recruiters and engineers need a direct route from the landing page to selected projects, source code, and verification evidence.
+
 ## Project walkthrough
 
 ```mermaid
