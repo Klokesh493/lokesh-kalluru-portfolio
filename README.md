@@ -1,6 +1,6 @@
 # lokesh-kalluru-portfolio
 
-Senior SRE, DevOps, DevSecOps, platform engineering, and AI automation portfolio site for Lokesh Reddy.
+Lokesh Reddy’s engineering portfolio for site reliability, cloud platforms, secure delivery, and MLOps. [Live portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/#work)
 
 ## What I built
 
