@@ -16,3 +16,7 @@ Then visit `http://127.0.0.1:4173`.
 
 - Project page repository: `lokesh-kalluru-portfolio`
 - Netlify/Vercel static deploy from this folder
+
+## Local verification
+
+Run `make verify` with Make and Python 3 installed. The check validates local links, fragments, and asset paths in the portfolio HTML.
