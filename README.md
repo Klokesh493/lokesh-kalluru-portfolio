@@ -20,3 +20,7 @@ Then visit `http://127.0.0.1:4173`.
 ## Local verification
 
 Run `make verify` with Make and Python 3 installed. The check validates local links, fragments, and asset paths in the portfolio HTML.
+
+## Project walkthrough
+
+[Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)
