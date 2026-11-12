@@ -2,6 +2,10 @@
 
 Senior SRE, DevOps, DevSecOps, platform engineering, and AI automation portfolio site for Lokesh Reddy.
 
+## What I built
+
+I built a static GitHub Pages site that connects the landing page and Selected Work section to public repositories and project evidence. HTML and CSS define the presentation, and the repository's Python checker validates relative links, fragment targets, and assets before updates.
+
 ## Local Preview
 
 Open `index.html` in a browser, or run:
