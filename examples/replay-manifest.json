@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Demo 1",
+    "args": [
+      "verify_site.py"
+    ],
+    "expected": "examples/Demo 1.stdout.txt"
+  }
+]
