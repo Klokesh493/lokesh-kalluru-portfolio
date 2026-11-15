@@ -1,27 +1,178 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Lokesh Reddy’s engineering portfolio covering site reliability, cloud platforms, secure delivery, and ML systems."><title>Lokesh Reddy | Site Reliability Engineer</title><style>
-:root{color-scheme:dark;--bg:#0c121b;--panel:#131e2b;--text:#eef4fa;--muted:#aabbd0;--accent:#76e0c2;--line:#2a3b4d}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}a{color:var(--accent);text-underline-offset:.25em}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}header,main,footer{width:min(1120px,calc(100% - 40px));margin:auto}header,footer{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:20px 0}header{border-bottom:1px solid var(--line)}nav{display:flex;gap:20px;flex-wrap:wrap}header a,nav a{text-decoration:none}header>a{font-weight:750;color:var(--text)}section{padding:56px 0}h1,h2,h3{line-height:1.12;margin:0 0 16px}h1{font-size:clamp(2.65rem,6vw,5.3rem);letter-spacing:-.055em}h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.035em}h3{font-size:1.35rem}p{color:var(--muted);margin:0 0 18px}.role,.category{color:var(--accent);font-size:.83rem;font-weight:700;letter-spacing:.045em}.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center;padding:76px 0}.hero img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line);border-radius:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.button{display:inline-block;border:1px solid var(--accent);border-radius:9px;padding:9px 17px;text-decoration:none;font-weight:700}.primary{color:#0c1920;background:var(--accent)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{display:flex;flex-direction:column;padding:23px;background:var(--panel);border:1px solid var(--line);border-radius:14px}.card a{align-self:flex-start;margin-top:auto}.toolbox a{display:inline-block;margin:0 16px 10px 0}footer{border-top:1px solid var(--line);color:var(--muted)}@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.hero,.grid{grid-template-columns:1fr}.hero{padding:44px 0;gap:24px}section{padding:36px 0}header,main,footer{width:calc(100% - 32px)}}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lokesh Reddy's engineering portfolio, featuring runnable projects in site reliability, cloud platforms, DevSecOps, and AI for operations.">
+  <title>Lokesh Reddy | Site Reliability Engineer</title>
+  <link rel="canonical" href="https://klokesh493.github.io/lokesh-kalluru-portfolio/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell site-header">
+    <a class="brand" href="index.html">Lokesh Reddy</a>
+    <nav aria-label="Main navigation">
+      <a href="#work">View Work</a>
+      <a href="#labs">AI Labs</a>
+      <a href="#tools">Tech Stack</a>
+      <a href="https://github.com/Klokesh493">GitHub ↗</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="intro">
+      <div class="shell hero-inner">
+        <div>
+          <p class="role">Site Reliability Engineer</p>
+          <h1 id="intro">Site reliability, cloud platforms, and AI for on-call.</h1>
+          <p class="intro">I build tools that help responders investigate incidents, recover services, and make safer release decisions.</p>
+          <div class="actions">
+            <a class="button primary" href="#work">View Work <span aria-hidden="true">↓</span></a>
+            <a class="button" href="https://github.com/Klokesh493">Explore GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <img src="assets/sre-ai-hero.png" alt="" width="1672" height="941" fetchpriority="high">
+      </div>
+    </section>
 
-body{background:#f4f6fa;color:#132033}header{width:auto;padding:17px max(24px,calc((100vw - 1240px)/2));background:#fff;border-color:#dce3eb}header a,header>a{color:#172639}nav a:hover{text-decoration:underline}main{width:100%}main>section:not(.hero){width:min(1120px,calc(100% - 40px));margin:auto}p{color:#43556b}.hero{display:block;position:relative;isolation:isolate;width:100%;padding:clamp(64px,9vw,130px) max(24px,calc((100vw - 1240px)/2));min-height:580px;color:#fff;background:#111d2c}.hero>div{max-width:800px}.hero img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;aspect-ratio:auto;border:0;border-radius:0;object-position:center right}.hero::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#0a1423f7 0%,#0a1423dd 43%,#0a14236e 100%)}.hero p:not(.role){color:#e2eaf3;max-width:620px;font-size:1.12rem}.hero .button:not(.primary){color:#fff;border-color:#aabbd0}.card{background:#fff;border-color:#dce3eb}.card .category,main>section:not(.hero) a,footer a{color:#006853}footer{color:#43556b;border-color:#dce3eb}@media(max-width:620px){.hero{min-height:0;padding:64px 20px}.hero::before{background:#0a1423d9}}
+    <section class="shell section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Selected work</h2>
+      <p class="section-description">Reproduce an incident decision, exercise a recovery path, or replay a release gate.</p>
+      <div class="grid">
+        <article class="card">
+          <p class="category">AI · On-call</p>
+          <h3>SRE Incident Investigation Agent</h3>
+          <p>Turn synthetic SLO and change evidence into a cited paging recommendation. Route incomplete evidence to an operator for review.</p>
+          <p class="stack">Ollama · Qwen · Python</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/llm-sre-incident-investigation-agent" aria-label="Source: SRE Incident Investigation Agent">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/llm-sre-incident-investigation-agent/blob/main/examples/live-report.json" aria-label="Captured model run: SRE Incident Investigation Agent">Captured model run <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">SRE · Observability</p>
+          <h3>SRE Error Budget Control Plane</h3>
+          <p>Replay SLO burn and test how Alertmanager routes page and ticket alerts and inhibits duplicate notifications.</p>
+          <p class="stack">Prometheus · Alertmanager · Python</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/sre-error-budget-control-plane" aria-label="Source: SRE Error Budget Control Plane">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing" aria-label="Routing drill: SRE Error Budget Control Plane">Routing drill <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">DevSecOps · CI/CD</p>
+          <h3>Release Evidence Pipeline</h3>
+          <p>Reproduce an approved release and an incident hold using evidence from four SRE, AWS recovery, Azure ML, and on-call labs.</p>
+          <p class="stack">Release gates · SRE · MLOps</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/release-evidence-pipeline" aria-label="Source: Release Evidence Pipeline">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/release-evidence-pipeline#run-the-demo" aria-label="Release replay: Release Evidence Pipeline">Release replay <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">Cloud · Recovery</p>
+          <h3>AWS Event Recovery Platform</h3>
+          <p>Retry only failed SQS records, preserve idempotent receipts, and exercise the dead-letter recovery path locally.</p>
+          <p class="stack">AWS Lambda · SQS · Terraform</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/aws-event-recovery-platform" aria-label="Source: AWS Event Recovery Platform">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/aws-event-recovery-platform#run-the-demo" aria-label="Recovery drill: AWS Event Recovery Platform">Recovery drill <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">Platform · Kubernetes</p>
+          <h3>Kubernetes Node Drain Planner</h3>
+          <p>Check workload replicas, disruption budgets, and critical pods before planning a node drain.</p>
+          <p class="stack">Kubernetes · Pod disruption budgets</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/kubernetes-node-drain-planner" aria-label="Source: Kubernetes Node Drain Planner">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/kubernetes-node-drain-planner#run-the-project" aria-label="Run the planner: Kubernetes Node Drain Planner">Run the planner <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">MLOps · Model serving</p>
+          <h3>Azure ML Endpoint Release Lab</h3>
+          <p>Train a classifier, verify holdout quality and the model artifact, then replay the Azure ML scoring contract locally.</p>
+          <p class="stack">Azure ML scoring · Python · unittest</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab" aria-label="Source: Azure ML Endpoint Release Lab">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab#run-the-demo" aria-label="Scoring demo: Azure ML Endpoint Release Lab">Scoring demo <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-.card-links{display:flex;gap:12px 18px;flex-wrap:wrap}header{background:#f6f6f8}header>a{font-weight:850}nav a{font-size:.94rem;font-weight:750;color:#394458}.hero h1{letter-spacing:-.045em}.hero .primary{background:#347e76;border-color:#347e76;color:white}.lab{border-top:1px solid #dce3eb}.lab h3{line-height:1.3}
-</style></head><body>
-<header><a href="index.html?view=operations">Lokesh Reddy</a><nav aria-label="Main navigation"><a href="index.html?view=operations">Portfolio</a><a href="#work">View Work</a><a href="#labs">Lab roadmap</a><a href="#tools">Tools</a><a href="https://github.com/Klokesh493">GitHub</a></nav></header>
-<main><section class="hero" aria-labelledby="intro"><div><p class="role">Site Reliability Engineer</p><h1 id="intro">Site reliability, platform engineering, and on-call operations.</h1><p>I build tools for service reliability, cloud operations, and safe releases. My projects connect SLO monitoring, AWS recovery, Azure ML serving, and on-call evidence.</p><div class="actions"><a class="button primary" href="#work">View Work</a><a class="button" href="https://github.com/Klokesh493">Explore GitHub</a></div></div><img src="assets/sre-ai-hero.png" alt="Illustration of an operations workstation with monitoring dashboards"></section>
-<section id="work"><h2>Selected work</h2><p>Six projects with local demos. The release pipeline combines SRE, AWS recovery, Azure ML, and on-call evidence.</p><div class="grid">
-<article class="card"><p class="category">CI/CD · DevSecOps</p><h3>Release Evidence Pipeline</h3><p>Run a release gate that combines SRE, AWS recovery, Azure ML, and on-call reports. Reproduce an approved release and a held incident.</p><div class="card-links"><a href="https://github.com/Klokesh493/release-evidence-pipeline" aria-label="View repository for Release Evidence Pipeline">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/release-evidence-pipeline#run-the-demo" aria-label="Run or verify Release Evidence Pipeline">Demo and tests</a></div></article>
-<article class="card"><p class="category">SRE · Prometheus</p><h3>SRE Error Budget Control Plane</h3><p>Replay SLO burn and verify Alertmanager page delivery, ticket routing, and inhibition locally.</p><div class="card-links"><a href="https://github.com/Klokesh493/sre-error-budget-control-plane" aria-label="View repository for SRE Error Budget Control Plane">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing" aria-label="Run or verify SRE Error Budget Control Plane">Demo and tests</a></div></article>
-<article class="card"><p class="category">AWS · Terraform</p><h3>AWS Event Recovery Platform</h3><p>Retry only failed SQS records, preserve idempotent receipts, and verify recovery with a local dead-letter drill.</p><div class="card-links"><a href="https://github.com/Klokesh493/aws-event-recovery-platform" aria-label="View repository for AWS Event Recovery Platform">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/aws-event-recovery-platform#run-the-demo" aria-label="Run or verify AWS Event Recovery Platform">Demo and tests</a></div></article>
-<article class="card"><p class="category">Azure · MLOps</p><h3>Azure ML Endpoint Release Lab</h3><p>Train a classifier, verify holdout quality and the model artifact, then exercise Azure ML scoring locally.</p><div class="card-links"><a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab" aria-label="View repository for Azure ML Endpoint Release Lab">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab#run-the-demo" aria-label="Run or verify Azure ML Endpoint Release Lab">Demo and tests</a></div></article>
-<article class="card"><p class="category">Cloud · On-call</p><h3>Cloud On-call Evidence Agent</h3><p>Combine SLO, simulated CloudWatch, and change evidence into a cited on-call recommendation.</p><div class="card-links"><a href="https://github.com/Klokesh493/cloud-oncall-evidence-agent" aria-label="View repository for Cloud On-call Evidence Agent">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/cloud-oncall-evidence-agent#run-the-demo" aria-label="Run or verify Cloud On-call Evidence Agent">Demo and tests</a></div></article>
-<article class="card"><p class="category">Platform · Kubernetes</p><h3>Kubernetes Node Drain Planner</h3><p>Check replica counts, pod disruption budgets, and critical workloads before draining a node.</p><div class="card-links"><a href="https://github.com/Klokesh493/kubernetes-node-drain-planner" aria-label="View repository for Kubernetes Node Drain Planner">View repository<span aria-hidden="true"> ↗</span></a><a href="https://github.com/Klokesh493/kubernetes-node-drain-planner#run-the-project" aria-label="Run or verify Kubernetes Node Drain Planner">Demo and tests</a></div></article>
-</div></section>
-<section id="additional-work" class="lab"><h2>More engineering projects</h2><div class="grid">
-<article class="card"><p class="category">SRE · Disaster recovery</p><h3>Multi-Region Failover Planner</h3><p>Choose a failover region using health, available capacity, and replication lag.</p><a href="https://github.com/Klokesh493/multi-region-failover-planner" aria-label="View repository for Multi-Region Failover Planner">View repository<span aria-hidden="true"> ↗</span></a></article>
-<article class="card"><p class="category">SRE · Observability</p><h3>API Latency SLO Sentinel</h3><p>Check p95 and p99 API latency against service objectives.</p><a href="https://github.com/Klokesh493/api-latency-slo-sentinel" aria-label="View repository for API Latency SLO Sentinel">View repository<span aria-hidden="true"> ↗</span></a></article>
-<article class="card"><p class="category">SRE · On-call</p><h3>Splunk Alert Triage</h3><p>Deduplicate exported alerts and prioritize services for on-call review.</p><a href="https://github.com/Klokesh493/splunk-alert-triage" aria-label="View repository for Splunk Alert Triage">View repository<span aria-hidden="true"> ↗</span></a></article>
-<article class="card"><p class="category">Platform · Streaming</p><h3>Kafka Consumer Lag SLO Guard</h3><p>Estimate whether Kafka consumer groups can catch up within a freshness SLO.</p><a href="https://github.com/Klokesh493/kafka-consumer-lag-slo-guard" aria-label="View repository for Kafka Consumer Lag SLO Guard">View repository<span aria-hidden="true"> ↗</span></a></article>
-<article class="card"><p class="category">SRE · Information retrieval</p><h3>On-call Runbook Retriever</h3><p>Suggest a cited runbook for matching incident symptoms and request review for weak or tied matches.</p><a href="https://github.com/Klokesh493/on-call-runbook-retriever" aria-label="View repository for On-call Runbook Retriever">View repository<span aria-hidden="true"> ↗</span></a></article>
-</div></section>
-<section id="labs" class="lab"><h2>Lab roadmap</h2><p>Independent project concepts using public or synthetic data.</p><div class="grid"><article class="card"><h3>On-call rotation and PagerDuty</h3><p>Simulate primary and secondary coverage, escalation deadlines, acknowledgments, and incident handoffs.</p><a href="https://github.com/Klokesh493/on-call-rotation-lab">Related project: On-call Rotation Lab</a></article><article class="card"><h3>Kafka platform administration</h3><p>Practice topic configuration, consumer lag diagnosis, and maintenance planning in a local Kafka cluster.</p><a href="https://github.com/Klokesh493/kafka-consumer-lag-slo-guard">Related project: Kafka lag SLO guard</a></article><article class="card"><h3>Hadoop pipeline reliability</h3><p>Detect missing partitions, late data, and schema changes before publishing downstream datasets.</p><a href="https://github.com/Klokesh493/hadoop-data-quality-sentinel">Related project: Hadoop data quality sentinel</a></article><article class="card"><h3>App Store and media growth</h3><p>Simulate catalog availability and campaign traffic for an Apple App Store–inspired storefront using synthetic events.</p></article><article class="card"><h3>Accessibility and health workflows</h3><p>Explore ADA accessibility checks and monitoring for a synthetic health service, using generated events and records.</p></article></div></section><section id="tools" class="toolbox"><h2>Engineering tools</h2><p>Platform automation, continuous delivery, and monitoring.</p><a href="https://kubernetes.io/docs/">Kubernetes</a><a href="https://developer.hashicorp.com/terraform/docs">Terraform</a><a href="https://www.jenkins.io/doc/">Jenkins</a><a href="https://prometheus.io/docs/">Prometheus</a><a href="https://grafana.com/docs/">Grafana</a></section></main>
-<footer><span>Lokesh Reddy · Engineering portfolio</span><a href="https://github.com/Klokesh493">GitHub profile</a></footer></body></html>
+    <section class="lab section" id="labs" aria-labelledby="labs-title">
+      <div class="shell">
+        <h2 id="labs-title">AI agent labs</h2>
+        <p class="section-description">Local Qwen runs use read-only tools and synthetic fixtures. Each lab records the model’s evidence and the policy decision that follows.</p>
+        <div class="grid lab-grid">
+        <article class="card">
+          <p class="category">DevSecOps · AI</p>
+          <h3>Dependency Remediation</h3>
+          <p>Review an advisory and identify a candidate update outside the affected version range. The report records whether it qualifies for testing.</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/ai-dependency-remediation-agent" aria-label="Source: Dependency Remediation">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-dependency-remediation-agent/blob/main/examples/live-report.json" aria-label="Model report: Dependency Remediation">Model report <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">Evaluation · AI</p>
+          <h3>AI Release Regression</h3>
+          <p>Use evaluation evidence to recommend a release decision. Critical regressions, unsupported citations, and token overruns trigger a hold.</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/ai-release-regression-agent" aria-label="Source: AI Release Regression">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-release-regression-agent/blob/main/examples/live-report.json" aria-label="Model report: AI Release Regression">Model report <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">MLOps · AI</p>
+          <h3>Model Drift Investigation</h3>
+          <p>Investigate drift with feature shift, label quality, and freshness evidence before proposing a follow-up.</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/ai-model-drift-investigation-agent" aria-label="Source: Model Drift Investigation">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-model-drift-investigation-agent/blob/main/examples/live-report.json" aria-label="Model report: Model Drift Investigation">Model report <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <p class="category">SaaS · AI</p>
+          <h3>Support Knowledge</h3>
+          <p>Return a cited support excerpt from the appropriate tenant or escalate with the reason recorded.</p>
+          <div class="card-links">
+            <a href="https://github.com/Klokesh493/ai-support-knowledge-agent" aria-label="Source: Support Knowledge">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-support-knowledge-agent/blob/main/examples/live-report.json" aria-label="Model report: Support Knowledge">Model report <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section" id="additional-work" aria-labelledby="more-title">
+      <h2 id="more-title">More engineering work</h2>
+      <ul class="project-list">
+        <li><a href="https://github.com/Klokesh493/splunk-alert-triage">Splunk Alert Triage <span aria-hidden="true">↗</span></a><span>Deduplicate exported alerts and prioritize on-call review.</span></li>
+        <li><a href="https://github.com/Klokesh493/kafka-consumer-lag-slo-guard">Kafka Consumer Lag SLO Guard <span aria-hidden="true">↗</span></a><span>Estimate catch-up time against a freshness objective.</span></li>
+        <li><a href="https://github.com/Klokesh493/on-call-rotation-lab">On-call Rotation Lab <span aria-hidden="true">↗</span></a><span>Simulate coverage, acknowledgment deadlines, and escalation.</span></li>
+        <li><a href="https://github.com/Klokesh493/multi-region-failover-planner">Multi-Region Failover Planner <span aria-hidden="true">↗</span></a><span>Evaluate target health, capacity, and replication lag.</span></li>
+      </ul>
+      <a class="all" href="https://github.com/Klokesh493?tab=repositories">Browse all repositories <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="toolbox section" id="tools" aria-labelledby="tools-title">
+      <div class="shell">
+        <h2 id="tools-title">Tech stack</h2>
+        <dl class="tools">
+          <div><dt>Reliability and on-call</dt><dd>Prometheus · Alertmanager · Grafana · Splunk · PagerDuty workflows</dd></div>
+          <div><dt>Cloud and platform</dt><dd>AWS · Azure Machine Learning · Kubernetes · Terraform · Docker</dd></div>
+          <div><dt>Delivery and security</dt><dd>GitHub Actions · Release evidence gates · Dependency advisory review</dd></div>
+          <div><dt>AI and data</dt><dd>Python · Ollama · Qwen · Model evaluation · Kafka</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+  <footer class="shell">
+    <span>Lokesh Reddy · Engineering portfolio</span>
+    <a href="https://github.com/Klokesh493">GitHub Overview ↗</a>
+  </footer>
+</body>
+</html>
