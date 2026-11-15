@@ -2,6 +2,8 @@
 
 Lokesh Reddy’s engineering portfolio for site reliability, cloud platforms, secure delivery, and MLOps. [Live portfolio](https://klokesh493.github.io/lokesh-kalluru-portfolio/#work)
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a static GitHub Pages site that connects the landing page and Selected Work section to public repositories and project evidence. HTML and CSS define the presentation, and the repository's Python checker validates relative links, fragment targets, and assets before updates.
