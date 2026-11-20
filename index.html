@@ -25,7 +25,7 @@
         <div>
           <p class="role">Site Reliability Engineer</p>
           <h1 id="intro">Site reliability, cloud platforms, and AI for on-call.</h1>
-          <p class="intro">I build tools that help responders investigate incidents, recover services, and make safer release decisions.</p>
+          <p class="intro">I build AI-assisted platforms for incident response, accelerator capacity, secure delivery, and self-service infrastructure.</p>
           <div class="actions">
             <a class="button primary" href="#work">View Work <span aria-hidden="true">↓</span></a>
             <a class="button" href="https://github.com/Klokesh493">Explore GitHub <span aria-hidden="true">↗</span></a>
@@ -37,66 +37,71 @@
 
     <section class="shell section" id="work" aria-labelledby="work-title">
       <h2 id="work-title">Selected work</h2>
-      <p class="section-description">Reproduce an incident decision, exercise a recovery path, or replay a release gate.</p>
+      <p class="section-description">Five end-to-end AI platforms with local model runs, durable workflows, and verification evidence. Explore the release pipeline that connects earlier cloud labs.</p>
       <div class="grid">
         <article class="card">
-          <p class="category">AI · On-call</p>
-          <h3>SRE Incident Investigation Agent</h3>
-          <p>Turn synthetic SLO and change evidence into a cited paging recommendation. Route incomplete evidence to an operator for review.</p>
-          <p class="stack">Ollama · Qwen · Python</p>
+          <p class="category">SRE · On-call</p>
+          <h3>AI SRE Incident Command</h3>
+          <p>Correlate complete SLO windows with Splunk evidence, resolve the current responder, and export a reviewed escalation payload.</p>
+          <p class="stack">FastAPI · Splunk exports · PagerDuty events</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/llm-sre-incident-investigation-agent" aria-label="Source: SRE Incident Investigation Agent">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/llm-sre-incident-investigation-agent/blob/main/examples/live-report.json" aria-label="Captured model run: SRE Incident Investigation Agent">Captured model run <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-sre-incident-command-platform" aria-label="Source: AI SRE Incident Command">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-sre-incident-command-platform/blob/main/docs/CASE_STUDY.md" aria-label="Walkthrough: AI SRE Incident Command">Walkthrough <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-sre-incident-command-platform/blob/main/docs/VALIDATION.md" aria-label="Validation: AI SRE Incident Command">Validation <span aria-hidden="true">↗</span></a>
           </div>
         </article>
         <article class="card">
-          <p class="category">SRE · Observability</p>
-          <h3>SRE Error Budget Control Plane</h3>
-          <p>Replay SLO burn and test how Alertmanager routes page and ticket alerts and inhibits duplicate notifications.</p>
-          <p class="stack">Prometheus · Alertmanager · Python</p>
+          <p class="category">AI infrastructure · Capacity</p>
+          <h3>AI Accelerator Capacity Platform</h3>
+          <p>Reserve inference replicas using GPU memory, benchmark freshness, latency headroom, and hourly budget constraints.</p>
+          <p class="stack">Ollama · GPU benchmarks · SQLite</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/sre-error-budget-control-plane" aria-label="Source: SRE Error Budget Control Plane">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/sre-error-budget-control-plane/blob/main/docs/RUNBOOK.md#verify-alertmanager-routing" aria-label="Routing drill: SRE Error Budget Control Plane">Routing drill <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-accelerator-capacity-platform" aria-label="Source: AI Accelerator Capacity Platform">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-accelerator-capacity-platform/blob/main/docs/CASE_STUDY.md" aria-label="Walkthrough: AI Accelerator Capacity Platform">Walkthrough <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-accelerator-capacity-platform/blob/main/docs/VALIDATION.md" aria-label="Validation: AI Accelerator Capacity Platform">Validation <span aria-hidden="true">↗</span></a>
           </div>
         </article>
         <article class="card">
-          <p class="category">DevSecOps · CI/CD</p>
-          <h3>Release Evidence Pipeline</h3>
-          <p>Reproduce an approved release and an incident hold using evidence from four SRE, AWS recovery, Azure ML, and on-call labs.</p>
-          <p class="stack">Release gates · SRE · MLOps</p>
+          <p class="category">DevOps · CI/CD</p>
+          <h3>AI Delivery Pipeline Orchestrator</h3>
+          <p>Check pipeline dependencies and artifact integrity, then hold releases on failed prerequisites or canary regressions.</p>
+          <p class="stack">Pipeline DAGs · SHA-256 · Canary gates</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/release-evidence-pipeline" aria-label="Source: Release Evidence Pipeline">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/release-evidence-pipeline#run-the-demo" aria-label="Release replay: Release Evidence Pipeline">Release replay <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-delivery-pipeline-orchestrator" aria-label="Source: AI Delivery Pipeline Orchestrator">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-delivery-pipeline-orchestrator/blob/main/docs/CASE_STUDY.md" aria-label="Walkthrough: AI Delivery Pipeline Orchestrator">Walkthrough <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-delivery-pipeline-orchestrator/blob/main/docs/VALIDATION.md" aria-label="Validation: AI Delivery Pipeline Orchestrator">Validation <span aria-hidden="true">↗</span></a>
           </div>
         </article>
         <article class="card">
-          <p class="category">Cloud · Recovery</p>
-          <h3>AWS Event Recovery Platform</h3>
-          <p>Retry only failed SQS records, preserve idempotent receipts, and exercise the dead-letter recovery path locally.</p>
-          <p class="stack">AWS Lambda · SQS · Terraform</p>
+          <p class="category">DevSecOps · Application security</p>
+          <h3>AI DevSecOps Exposure Platform</h3>
+          <p>Trace vulnerable packages through the dependency graph and check waiver expiry before approving a security review.</p>
+          <p class="stack">CycloneDX · Trivy exports · Policy gates</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/aws-event-recovery-platform" aria-label="Source: AWS Event Recovery Platform">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/aws-event-recovery-platform#run-the-demo" aria-label="Recovery drill: AWS Event Recovery Platform">Recovery drill <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-devsecops-exposure-platform" aria-label="Source: AI DevSecOps Exposure Platform">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-devsecops-exposure-platform/blob/main/docs/CASE_STUDY.md" aria-label="Walkthrough: AI DevSecOps Exposure Platform">Walkthrough <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-devsecops-exposure-platform/blob/main/docs/VALIDATION.md" aria-label="Validation: AI DevSecOps Exposure Platform">Validation <span aria-hidden="true">↗</span></a>
           </div>
         </article>
         <article class="card">
           <p class="category">Platform · Kubernetes</p>
-          <h3>Kubernetes Node Drain Planner</h3>
-          <p>Check workload replicas, disruption budgets, and critical pods before planning a node drain.</p>
-          <p class="stack">Kubernetes · Pod disruption budgets</p>
+          <h3>AI Self-Service Platform Control Plane</h3>
+          <p>Validate service ownership, image digests and tenant quotas, then export hardened Kubernetes manifests.</p>
+          <p class="stack">Service catalog · Quotas · Kubernetes</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/kubernetes-node-drain-planner" aria-label="Source: Kubernetes Node Drain Planner">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/kubernetes-node-drain-planner#run-the-project" aria-label="Run the planner: Kubernetes Node Drain Planner">Run the planner <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-self-service-platform-control-plane" aria-label="Source: AI Self-Service Platform Control Plane">Source <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-self-service-platform-control-plane/blob/main/docs/CASE_STUDY.md" aria-label="Walkthrough: AI Self-Service Platform Control Plane">Walkthrough <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/ai-self-service-platform-control-plane/blob/main/docs/VALIDATION.md" aria-label="Validation: AI Self-Service Platform Control Plane">Validation <span aria-hidden="true">↗</span></a>
           </div>
         </article>
         <article class="card">
-          <p class="category">MLOps · Model serving</p>
-          <h3>Azure ML Endpoint Release Lab</h3>
-          <p>Train a classifier, verify holdout quality and the model artifact, then replay the Azure ML scoring contract locally.</p>
-          <p class="stack">Azure ML scoring · Python · unittest</p>
+          <p class="category">Delivery · Cloud · MLOps</p>
+          <h3>Release Evidence Pipeline</h3>
+          <p>Combine the existing SRE, AWS recovery, Azure ML, and on-call labs into a reproducible release gate.</p>
+          <p class="stack">Python · Integration replays · Release gates</p>
           <div class="card-links">
-            <a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab" aria-label="Source: Azure ML Endpoint Release Lab">Source <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/Klokesh493/azure-ml-endpoint-release-lab#run-the-demo" aria-label="Scoring demo: Azure ML Endpoint Release Lab">Scoring demo <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Klokesh493/release-evidence-pipeline">Source ↗</a>
+            <a href="https://github.com/Klokesh493/release-evidence-pipeline#run-the-demo">Run the demo ↗</a>
           </div>
         </article>
       </div>
@@ -104,7 +109,7 @@
 
     <section class="lab section" id="labs" aria-labelledby="labs-title">
       <div class="shell">
-        <h2 id="labs-title">AI agent labs</h2>
+        <h2 id="labs-title">Focused AI agent labs</h2>
         <p class="section-description">Local Qwen runs use read-only tools and synthetic fixtures. Each lab records the model’s evidence and the policy decision that follows.</p>
         <div class="grid lab-grid">
         <article class="card">
@@ -164,8 +169,8 @@
         <dl class="tools">
           <div><dt>Reliability and on-call</dt><dd>Prometheus · Alertmanager · Grafana · Splunk · PagerDuty workflows</dd></div>
           <div><dt>Cloud and platform</dt><dd>AWS · Azure Machine Learning · Kubernetes · Terraform · Docker</dd></div>
-          <div><dt>Delivery and security</dt><dd>GitHub Actions · Release evidence gates · Dependency advisory review</dd></div>
-          <div><dt>AI and data</dt><dd>Python · Ollama · Qwen · Model evaluation · Kafka</dd></div>
+          <div><dt>Delivery and security</dt><dd>Pipeline DAGs · Release gates · CycloneDX · Trivy exports</dd></div>
+          <div><dt>AI and data</dt><dd>Python · FastAPI · SQLite · Ollama · Qwen · Kafka</dd></div>
         </dl>
       </div>
     </section>
